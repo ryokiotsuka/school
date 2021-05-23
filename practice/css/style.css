@@ -1,0 +1,243 @@
+/*# sourceMappingURL=style.css.map */
+.base-width {
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Hiragino Mincho Pro";
+}
+
+.header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    background: #000;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.header-logo {
+    width: 193px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.nav-list {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.nav-item {
+    margin-top: 35px;
+    padding: 0 20px;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bg-img {
+    background-image: url(../image/top-bg.png);
+    height: 551px;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.bg-img-text {
+    font-size: 58px;
+    text-align: center;
+    line-height: 551px;
+    
+}
+
+.section-title {
+    font-size: 36px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.course-list {
+    /*    margin: 0 20px;*/
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-item {
+    box-shadow: 0px 3px 6px #00000029;
+    margin: 0 10px;
+    margin-bottom: 40px;
+}
+
+.course-item img {
+    width: 100%;
+    height: 50%;
+}
+
+.course-text {
+    margin: 20px 10px 10px;
+}
+
+.time-limit {
+    border-top: 1px black solid;
+    margin: 30px 30px 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.form {
+    text-align: center;
+}
+
+.submit {
+    width: 310px;
+    height: 52px;
+    background-color: #fff;
+    border: 1px #EEEEEE solid;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.teacher-list {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.teacher-item {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.circle-img {
+    width: 250px;
+}
+
+.teacher-text {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.teacher-name {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-bg-img {
+    background-image: url(../image/contact-bg.png);
+    background-size: cover;
+    height: 0;
+    height: 455px;
+    color: #fff;
+    width: 100%;
+    background-position: center;
+}
+
+.contact-text {
+    text-align: center;
+}
+
+.contact-text-1 p {
+    padding: 5px 0;
+}
+
+.contact-text-2 {
+    margin: 40px 0;
+}
+
+.contact-text-2 p {
+    padding: 5px 0;
+}
+
+.contact-btn {
+    width: 210px;
+    height: 54px;
+    background-color: #DC143C;
+    color: #fff;
+    border-right: 5px;
+    box-shadow: 0px 3px 6px #000029;
+    border: none;
+}
+
+.footer {
+    background-color: black;
+    height: 80px;
+}
+
+.cory-right {
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+}
+
+@media only screen and (max-width:767px) {
+    .base-width {
+        max-width: 767px;
+    }
+
+    .bg-img {
+        background-image: url(../image/sp-top-bg.png);
+        height: 551px;
+    }
+
+    .bg-img-text {
+        font-size: 24px;
+        line-height: 551px;
+        font-size: 26px;
+        
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .course-list {
+        flex-wrap: wrap;
+        width: 300px;
+        margin: auto;
+    }
+
+    .course-item {
+        margin: 0 auto 40px;
+    }
+
+    .submit {
+        width: 300px;
+    }
+
+    .circle-img {
+        margin: auto;
+        width: 280px;
+        height: 280px;
+    }
+
+    .teacher-item {
+        flex-wrap: wrap;
+    }
+    
+    .teacher-name {
+        text-align: center;
+    }
+
+    .teacher-text {
+        margin: 30px 0 0;
+    }
+
+    .contact-bg-img {
+        background-image: url(../image/sp-contact-bg.png);
+        background-size: cover;
+        height: 455px;
+        background-position: center;
+    }
+
+}
